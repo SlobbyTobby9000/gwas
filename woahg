@@ -34,7 +34,7 @@ if LocalPlayer.Backpack:FindFirstChild("KnightsSword") then
         Sword.GripPos          =  Vector3.new(0,0,0)
         Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
         LocalPlayer.Backpack["KnightsSword"].Parent = Character
-        Character.KnightsSword.Handle.Size = Vector3.new(50, 50, 500)
+        Character.KnightsSword.Handle.Size = Vector3.new(50, 30, 500)
     end
 elseif Character:FindFirstChild("KnightsSword") then
     local Sword            =  Character:FindFirstChild("KnightsSword")
@@ -46,7 +46,7 @@ elseif Character:FindFirstChild("KnightsSword") then
     Sword.GripPos          =  Vector3.new(0,0,0)
     Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
     LocalPlayer.Backpack["KnightsSword"].Parent = Character
-    Character.KnightsSword.Handle.Size = Vector3.new(50, 50, 500)
+    Character.KnightsSword.Handle.Size = Vector3.new(50, 30, 500)
 end
 -- Teleport
 task.spawn(function()
